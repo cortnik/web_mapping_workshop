@@ -27,7 +27,6 @@ map.fitBounds(featureLayer.gitBounds());
 
 featureLayer.on('ready', function(){
   this.eachLayer(function(layer){
-    layer.bindPopup('Hil I'm a park called: ' + layer.feature.properties.NAME);
+    layer.bindPopup('Hi I'm a park called: ' + layer.feature.properties.NAME);
   });
-  
 });
