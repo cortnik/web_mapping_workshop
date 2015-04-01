@@ -21,7 +21,7 @@ featureLayer.on('ready',function(){
     'fillColor':'#ec008c',
     'weight':4,
     'opacity':.7
-});
+ });
 map.fitBounds(featureLayer.getBounds());
 });
 
