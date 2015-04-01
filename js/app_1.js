@@ -30,3 +30,4 @@ featureLayer.on('ready',function(){
     layer.bindPopup('Hi I'm a park called: ' + layer.feature.properties.NAME);
   });
 });
+});
