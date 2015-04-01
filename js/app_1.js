@@ -13,7 +13,7 @@ map.setView([39, -96], 4);
 
 var dataFileToAdd = 'data/dcparks2.geojson';
 
-var featureLayer = L.mapbox.featurelayer().loadURL(dataFileToAdd).addTo(map)
+var featureLayer = L.mapbox.featureLayer().loadURL(dataFileToAdd).addTo(map)
 
 featurelayer.on('ready',function(){
   this.setstyle({
