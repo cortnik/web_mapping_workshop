@@ -15,8 +15,8 @@ var dataFileToAdd = 'data/dcparks2.geojson';
 
 var featureLayer = L.mapbox.featureLayer().loadURL(dataFileToAdd).addTo(map)
 
-featurelayer.on('ready',function(){
-  this.setstyle({
+featureLayer.on('ready',function(){
+  this.setStyle({
     'color':'#ec008c',
     'fillColor':'#ec008c',
     'weight':4,
